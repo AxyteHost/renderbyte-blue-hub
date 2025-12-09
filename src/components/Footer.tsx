@@ -16,10 +16,26 @@ const Footer = () => {
                 Render<span className="text-gradient">Byte</span>
               </span>
             </Link>
-            <p className="max-w-sm text-muted-foreground">
+            <p className="mb-4 max-w-sm text-muted-foreground">
               Premium game server hosting with lightning-fast performance, 
               DDoS protection, and 24/7 expert support.
             </p>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>
+                <span className="font-medium text-foreground">Email:</span>{" "}
+                <a href="mailto:hello@renderbyte.site" className="transition-colors hover:text-primary">
+                  hello@renderbyte.site
+                </a>
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Address:</span>{" "}
+                123 Server Street, Tech District, San Francisco, CA 94102, USA
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Business Registration:</span>{" "}
+                RenderByte LLC
+              </p>
+            </div>
           </div>
 
           {/* Quick Links */}
