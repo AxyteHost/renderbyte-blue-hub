@@ -28,8 +28,8 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <span className="font-medium text-foreground">Address:</span>{" "}
-                123 Server Street, Tech District, San Francisco, CA 94102, USA
+              <span className="font-medium text-foreground">Address:</span>{" "}
+                Shop No. 12, Cyber Hub Complex, CG Road, Ahmedabad, Gujarat 380009, India
               </p>
               <p>
                 <span className="font-medium text-foreground">Business Registration:</span>{" "}
