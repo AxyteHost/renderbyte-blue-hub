@@ -38,9 +38,9 @@ const Refund = () => {
               <h2 className="mb-4 text-2xl font-semibold">3. Non-Refundable Items</h2>
               <p className="mb-4 text-muted-foreground">The following are NOT eligible for refunds:</p>
               <ul className="list-inside list-disc space-y-2 text-muted-foreground">
-                <li>Domain registrations and renewals</li>
-                <li>SSL certificates</li>
-                <li>Dedicated IP addresses</li>
+                <li>Domain registrations and Renewals</li>
+                <li>Special Offer's</li>
+                <li>Other Payment Methods Than Upi</li>
                 <li>Add-on services and upgrades after initial purchase</li>
                 <li>Services suspended or terminated for policy violations</li>
                 <li>Renewal payments for existing services</li>
