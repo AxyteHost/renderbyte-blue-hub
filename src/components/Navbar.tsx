@@ -1,14 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Server, Gamepad2, Cloud, ChevronDown } from "lucide-react";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
+import { Server, Gamepad2, Cloud, Bot, MessageCircle } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -31,6 +23,10 @@ const Navbar = () => {
             <Gamepad2 className="h-4 w-4" />
             Game Hosting
           </Link>
+          <Link to="/discord-hosting" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground flex items-center gap-1">
+            <Bot className="h-4 w-4" />
+            Discord Hosting
+          </Link>
           <Link to="/cloud-hosting" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground flex items-center gap-1">
             <Cloud className="h-4 w-4" />
             Cloud Hosting
@@ -39,9 +35,9 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <Button variant="heroOutline" size="sm" asChild>
-            <a href="https://panel.renderbye.site" target="_blank" rel="noopener noreferrer">
-              <Gamepad2 className="h-4 w-4" />
-              Game Panel
+            <a href="https://dsc.gg/renderbyte" target="_blank" rel="noopener noreferrer">
+              <MessageCircle className="h-4 w-4" />
+              Discord
             </a>
           </Button>
           <Button variant="hero" size="sm" asChild>
