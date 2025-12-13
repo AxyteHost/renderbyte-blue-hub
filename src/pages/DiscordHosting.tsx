@@ -13,9 +13,9 @@ const pythonPlans = [
 ];
 
 const nodejsPlans = [
-  { name: "Starter Plan", ram: "512MB", price: "₹49.00", slug: "products/nodejs/starter-plan" },
-  { name: "Beginer Plan", ram: "1GB", price: "₹69.00", slug: "products/nodejs/beginer-plan", popular: true },
-  { name: "Expert Plan", ram: "2GB", price: "₹99.00", slug: "products/nodejs/beginer-plan" },
+  { name: "Starter Plan", ram: "2GB", price: "₹49.00", slug: "products/nodejs/starter-plan" },
+  { name: "Beginer Plan", ram: "4GB", price: "₹69.00", slug: "products/nodejs/beginer-plan", popular: true },
+  { name: "Expert Plan", ram: "6GB", price: "₹99.00", slug: "products/nodejs/beginer-plan" },
 ];
 
 const DiscordHosting = () => {
