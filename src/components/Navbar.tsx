@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Server, Gamepad2 } from "lucide-react";
+import { Server, Gamepad2, Cloud, ChevronDown } from "lucide-react";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
 
 const Navbar = () => {
   return (
@@ -19,14 +27,13 @@ const Navbar = () => {
           <Link to="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
             Home
           </Link>
-          <Link to="/privacy" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
-            Privacy
+          <Link to="/game-hosting" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground flex items-center gap-1">
+            <Gamepad2 className="h-4 w-4" />
+            Game Hosting
           </Link>
-          <Link to="/terms" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
-            Terms
-          </Link>
-          <Link to="/refund" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
-            Refund Policy
+          <Link to="/cloud-hosting" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground flex items-center gap-1">
+            <Cloud className="h-4 w-4" />
+            Cloud Hosting
           </Link>
         </div>
 
