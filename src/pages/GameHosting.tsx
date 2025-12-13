@@ -6,14 +6,14 @@ import { Badge } from "@/components/ui/badge";
 import { Check, Cpu, HardDrive, Zap } from "lucide-react";
 
 const minecraftPlans = [
-  { name: "Stone Plan", ram: "4GB", price: "₹79.00", slug: "stone-plan" },
-  { name: "Iron Plan", ram: "8GB", price: "₹129.00", slug: "iron-plan" },
-  { name: "Gold Plan", ram: "10GB", price: "₹159.00", slug: "gold-plan" },
-  { name: "Diamond Plan", ram: "12GB", price: "₹179.00", slug: "diamond-plan", popular: true },
-  { name: "Emerald Plan", ram: "16GB", price: "₹240.00", slug: "emerald-plan" },
-  { name: "Redstone Plan", ram: "24GB", price: "₹299.00", slug: "redstone-plan" },
-  { name: "Netherite Plan", ram: "32GB", price: "₹399.00", slug: "netherite-plan" },
-  { name: "Obsidian Plan", ram: "48GB", price: "₹499.00", slug: "obsidian-plan" },
+  { name: "Stone Plan", ram: "4GB", price: "₹79.00", slug: "products/minecraft-india/stone" },
+  { name: "Iron Plan", ram: "8GB", price: "₹129.00", slug: "products/minecraft-india/iron" },
+  { name: "Gold Plan", ram: "10GB", price: "₹159.00", slug: "products/minecraft-india/gold" },
+  { name: "Diamond Plan", ram: "12GB", price: "₹179.00", slug: "products/minecraft-india/diamond", popular: true },
+  { name: "Emerald Plan", ram: "16GB", price: "₹240.00", slug: "products/minecraft-india/emrald" },
+  { name: "Redstone Plan", ram: "24GB", price: "₹299.00", slug: "products/minecraft-india/redstone" },
+  { name: "Netherite Plan", ram: "32GB", price: "₹399.00", slug: "products/minecraft-india/netherite" },
+  { name: "Obsidian Plan", ram: "48GB", price: "₹499.00", slug: "products/minecraft-india/obsidian" },
 ];
 
 const GameHosting = () => {
