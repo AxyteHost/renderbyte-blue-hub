@@ -7,15 +7,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Check, Bot, Zap, Shield } from "lucide-react";
 
 const pythonPlans = [
-  { name: "Basic Plan", ram: "512MB", price: "₹49.00", slug: "python-basic" },
-  { name: "Mid Plan", ram: "1GB", price: "₹69.00", slug: "python-mid", popular: true },
-  { name: "High Plan", ram: "2GB", price: "₹99.00", slug: "python-high" },
+  { name: "Basic Plan", ram: "512MB", price: "₹49.00", slug: "products/python/basic-plan" },
+  { name: "Mid Plan", ram: "1GB", price: "₹69.00", slug: "products/python/mid-plan", popular: true },
+  { name: "High Plan", ram: "2GB", price: "₹99.00", slug: "products/python/high-plan" },
 ];
 
 const nodejsPlans = [
-  { name: "Basic Plan", ram: "512MB", price: "₹49.00", slug: "nodejs-basic" },
-  { name: "Mid Plan", ram: "1GB", price: "₹69.00", slug: "nodejs-mid", popular: true },
-  { name: "High Plan", ram: "2GB", price: "₹99.00", slug: "nodejs-high" },
+  { name: "Starter Plan", ram: "512MB", price: "₹49.00", slug: "products/nodejs/starter-plan" },
+  { name: "Beginer Plan", ram: "1GB", price: "₹69.00", slug: "products/nodejs/beginer-plan", popular: true },
+  { name: "Expert Plan", ram: "2GB", price: "₹99.00", slug: "products/nodejs/beginer-plan" },
 ];
 
 const DiscordHosting = () => {
