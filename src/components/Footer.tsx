@@ -33,7 +33,7 @@ const Footer = () => {
               </p>
               <p>
                 <span className="font-medium text-foreground">Business Registration:</span>{" "}
-                RenderByte LLC
+                RenderByte Technologies
               </p>
             </div>
           </div>
