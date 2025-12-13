@@ -9,6 +9,7 @@ import Terms from "./pages/Terms";
 import Refund from "./pages/Refund";
 import GameHosting from "./pages/GameHosting";
 import CloudHosting from "./pages/CloudHosting";
+import DiscordHosting from "./pages/DiscordHosting";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/refund" element={<Refund />} />
           <Route path="/game-hosting" element={<GameHosting />} />
           <Route path="/cloud-hosting" element={<CloudHosting />} />
+          <Route path="/discord-hosting" element={<DiscordHosting />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
